@@ -1,0 +1,36 @@
+# Source files (use dist instead)
+nodes/**/*.ts
+credentials/**/*.ts
+!nodes/**/*.d.ts
+!credentials/**/*.d.ts
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+
+# Test files
+test/
+coverage/
+*.test.ts
+*.spec.ts
+
+# Development files
+.github/
+.vscode/
+.idea/
+scripts/
+
+# Git files
+.git/
+.gitignore
+
+# Documentation (except README and LICENSE)
+docs/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+.env*
